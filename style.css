@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  /* background-color: #1DB954; */
+   background-size: contain;
+   /* background-repeat: repeat; */
+   background-image: url(assets/spotify-wispy-smoke-9gvjvxhb0ygkcgdr.jpg);
+    font-family: serif;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+
+nav ul{
+    list-style: none;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    color: white;
+
+}
+nav ul li{
+    padding: 0 15px;
+}
+.brand img{
+    width: 55px;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.bootom{
+    position: sticky;
+    height: 100px;
+background-color: black;
+    /* background: rgba(255, 255, 255, 0.5); */
+ 
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coint{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    background-image: url(assets/spotify-wispy-smoke-9gvjvxhb0ygkcgdr.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 34px;
+
+}
+#myprogressbar{
+    width: 100vw;
+    cursor: pointer;
+    text-align: center;
+}
+.icons{
+  margin-top: 12px;
+  cursor: pointer;
+
+}
+.icons .fa-solid{
+ margin: 0 5px;
+}
+.songlist h5{
+    font-size: 1rem;
+}
+
+.songItem{
+height: 50px;
+display: flex;
+background-color: white;
+color: black;
+
+justify-content: space-between; 
+ align-items: center;
+text-align: center;
+margin: 12px 0px;
+border-radius: 6px;
+/* width: 80%; */
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0px 23px;
+    position: relative;
+    right: 22px;
+    border-radius: 34px;
+    background-repeat: no-repeat;
+}
+
+.songItem span{
+    font-size: 1rem;
+
+}
+.timwstap{
+    margin: 0px 23px;
+    cursor: pointer;
+
+}
+.songItem .fa-solid{
+margin-right: 20px;
+cursor: pointer;
+}
+
+.songItem:hover{
+background-color: #1DB954;
+color: white;
+}
+
+.songiteamcoint{
+    margin-top: 0px;
+    
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+
+@media screen and (max-width: 787px) {
+  
+.songlist span{
+    font-size: 10px;
+   
+}
+.songlist .fa-solid{
+    font-size: 20px;
+}
+.songitemplay{
+    position: relative;
+   
+}
+
+.coint{
+    /* background-image: url(assets/bg.jpg); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.songlist h5{
+    font-size: 15px;
+position: relative;
+right: 25px;
+}
+.timwstap{
+    position: relative;
+    /* right: 20px; */
+    bottom: 5px;
+}
+.songinfo{
+    font-size: 10px;
+    position: relative;
+    left: 45px;
+
+}
+#myprogressbar{
+margin-top: 15px
+}
+
+  }
+
+
+.songitemplay{
+    margin-left: 40px;
+}
